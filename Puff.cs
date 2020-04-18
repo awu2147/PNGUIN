@@ -82,7 +82,6 @@ namespace PNGUIN
                     //Console.WriteLine($"decoded value = {h.symbol[index + (code - first)]}");
                     return h.symbol[index + (code - first)];
                 }
-                //Console.WriteLine("get another bit");
                 index += count;
                 first += count;
                 first <<= 1;

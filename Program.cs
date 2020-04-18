@@ -25,6 +25,7 @@ namespace PNGUIN
             if (path != string.Empty)
             {
                 //Decode(path);
+                var fileName = $"{Path.GetFileNameWithoutExtension(path)}_pnguin.png";
                 try
                 {
                     Stream dataStream = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.Read);
@@ -35,7 +36,7 @@ namespace PNGUIN
                     Decode(ref png);
 
                     Stream stream = png.WriteToStream();
-                    WriteToFile(stream, png, "testdump.png");
+                    WriteToFile(stream, png, fileName);
                 }
                 catch (Exception e)
                 {
