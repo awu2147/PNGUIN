@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PNGUIN", "PNGUIN.csproj", "{2AD54434-2AA0-4A9C-AA0D-0B77B573D92E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AD54434-2AA0-4A9C-AA0D-0B77B573D92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD54434-2AA0-4A9C-AA0D-0B77B573D92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD54434-2AA0-4A9C-AA0D-0B77B573D92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD54434-2AA0-4A9C-AA0D-0B77B573D92E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41B95AD2-132C-46BA-AB56-EB25614F6581}
+	EndGlobalSection
+EndGlobal
